@@ -1,0 +1,41 @@
+{
+  "name": "ludo-classic",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "NODE_ENV=development node server.ts",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server.ts",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/cli": "^8.5.2",
+    "@capacitor/core": "^8.5.2",
+    "canvas-confetti": "^1.9.4",
+    "clsx": "^2.1.1",
+    "express": "^5.2.1",
+    "lucide-react": "^1.16.0",
+    "motion": "^12.23.24",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^3.5.0",
+    "ws": "^8.21.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.9",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/express": "^5.0.6",
+    "@types/node": "^22.13.5",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@types/ws": "^8.18.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "^4.0.9",
+    "tsx": "^4.23.15",
+    "typescript": "^5.7.3",
+    "vite": "^6.2.0"
+  }
+}

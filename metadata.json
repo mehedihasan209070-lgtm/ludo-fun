@@ -1,0 +1,6 @@
+{
+  "name": "Ludo Classic",
+  "description": "Authentic 2 to 4 player Ludo board game featuring smart AI bots, classic rules, animated dice rolls, voice chat, and trilingual Bengali, English, and Hindi support.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
